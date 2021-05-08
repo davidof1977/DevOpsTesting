@@ -12,5 +12,12 @@ public class TestSonarTestingClass {
 		SonarTestingClass sonar = new SonarTestingClass();
 		Assert.assertTrue(sonar.getTrue());
 	}
+	
+	@Test
+	public void testGetFalse() {
+		SonarTestingClass sonar = new SonarTestingClass();
+		Assert.assertFalse(sonar.getFalse());
+	}
+
 
 }

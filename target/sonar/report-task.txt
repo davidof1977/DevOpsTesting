@@ -2,5 +2,5 @@ projectKey=davidof:DevOpsTesting
 serverUrl=http://localhost:9000
 serverVersion=8.9.0.43852
 dashboardUrl=http://localhost:9000/dashboard?id=davidof%3ADevOpsTesting
-ceTaskId=AXlK_NZiVOMRqr8IpkYP
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXlK_NZiVOMRqr8IpkYP
+ceTaskId=AXlLMx68VOMRqr8IpkYU
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXlLMx68VOMRqr8IpkYU
