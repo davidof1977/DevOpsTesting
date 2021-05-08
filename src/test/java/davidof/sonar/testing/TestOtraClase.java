@@ -8,7 +8,7 @@ public class TestOtraClase {
 	@Test
 	public void testGetNombre() {
 		OtraClase otra = new OtraClase();
-		Assert.assertNotEquals("Felix", otra.getNombre());
+		Assert.assertNotEquals("Felix", otra.getNombre(true));
 	}
 
 }
