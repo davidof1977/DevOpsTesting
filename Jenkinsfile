@@ -19,7 +19,7 @@ pipeline {
 		           withSonarQubeEnv("Sonarqube") {
 		           bat "${tool("Sonarqube")}/bin/sonar-scanner \
 		           -Dsonar.projectKey=davidof:DevOpsTesting \
-		           -Dsonar.sources=src \
+		           -Dsonar.sources=main \
 		           -Dsonar.java.binaries=target \
 		           -Dsonar.host.url=http://localhost:9000 \
 		           -Dsonar.login=5f0e23ac47a28e2f25fff275d2a4106dab50d245"
