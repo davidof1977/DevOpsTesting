@@ -1,7 +1,5 @@
 package davidof.sonar.testing;
 
-import static org.junit.Assert.*;
-
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -18,6 +16,5 @@ public class TestSonarTestingClass {
 		SonarTestingClass sonar = new SonarTestingClass();
 		Assert.assertFalse(sonar.getFalse());
 	}
-
 
 }
