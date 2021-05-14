@@ -16,7 +16,8 @@ pipeline {
 		   steps {
 		       script {
 			 env.JAVA_HOME="${tool 'MyJava'}"
-			env.PATH="${env.JAVA_HOME}/bin:${env.PATH}"      
+			env.PATH="${env.JAVA_HOME}/bin:${env.PATH}"
+			       echo env.PATH
 			def scannerHome = tool 'Sonarqube';   
 			withSonarQubeEnv("Sonarqube") {
 		           sh "${tool("Sonarqube")}/bin/sonar-scanner \
