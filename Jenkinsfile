@@ -24,7 +24,7 @@ pipeline {
 		           -Dsonar.projectKey=davidof:DevOpsTesting \
 		           -Dsonar.sources=src/main \
 		           -Dsonar.java.binaries=target \
-		           -Dsonar.host.url=http://localhost:9000 \
+		           -Dsonar.host.url=http://192.168.1.36:9000/ \
 		           -Dsonar.login=1501ef1262f56b69a57730dcb585e75eb34f712a"
 		               }
 		           }
