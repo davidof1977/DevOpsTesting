@@ -15,6 +15,8 @@ pipeline {
       	stage('Code Quality Check via SonarQube') {
 		   steps {
 		       script {
+			 env.JAVA_HOME="${tool 'MyJava'}"
+			env.PATH="${env.JAVA_HOME}/bin:${env.PATH}"      
 			def scannerHome = tool 'Sonarqube';   
 			withSonarQubeEnv("Sonarqube") {
 		           sh "${tool("Sonarqube")}/bin/sonar-scanner \
