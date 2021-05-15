@@ -42,7 +42,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "maven" 
-                bat 'mvn install'
+                sh 'mvn install'
             }
         }
         
